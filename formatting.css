@@ -1,2 +1,68 @@
-h1{text-align: center}
-img{max-width: 100%;}
+.container-fluid {
+    padding: 5%;
+ }
+
+.main_info{
+    /* -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 160px;
+    padding: 20px;
+    overflow: hidden; */
+    background-color: white;
+    border-top: 0px solid  rgb(174, 174, 175);
+    border-right: 6px solid rgba(87,89,130,1);
+    border-bottom: 0 solid;
+    border-left: 6px solid rgba(87,89,130,1);
+    margin-right:5%;
+    text-align: center;
+    -webkit-box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.4) ;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+.main_header{
+    color: rgba(87,89,130,1); 
+    o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.main_plot{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini_info{
+    padding: 20px;
+    overflow: hidden;
+    background-color: white;
+    border-top: 2px solid rgba(153,153,153,1);
+    border-right: 2px solid rgba(153,153,153,1);
+    border-bottom: 2px solid rgba(153,153,153,1);
+    border-left: 2px solid rgba(153,153,153,1);
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    /* text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ; */
+}
+.mini_header{
+    color: rgb(160, 159, 159); 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+.mini_plot{
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h6{
+    text-align: center;
+    color: rgb(165, 165, 165);
+}
