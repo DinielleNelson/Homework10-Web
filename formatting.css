@@ -21,10 +21,16 @@
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
 }
 
+.second_info{
+    margin-left:10%;
+    margin-right:10%;
+    padding-left:5%;
+    padding-right:5%
+}
 .main_header{
     color: rgba(87,89,130,1); 
-    o-text-overflow: ellipsis;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
+    text-align: center;
 }
 
 .main_plot{
